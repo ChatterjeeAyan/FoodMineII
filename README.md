@@ -1,8 +1,8 @@
-# FoodMine 2.0
+# FoodMine II
 
 FoodMine is a food database project from the Barabasi Lab of the Network Science Institute (Northeastern University). The objective of this project is to mine research litereature to uncover chemical contents in food. The code in this repository was used to generate the food pilots, plots, and other information in **FoodMine: Exploring Food Contents in Scientific Literature** (Hooton, Menichetti, Barabási). Additionally, we have included the data from out initial experiments.
 
-FoodMine 2.0 is an extension of the existing FoodMine infrastructure with better search options and improved paper ranking algorithm. 
+FoodMine II is an extension of the existing FoodMine infrastructure with better search options and improved paper ranking algorithm. 
 
 # Files
 
