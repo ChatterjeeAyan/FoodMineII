@@ -153,7 +153,7 @@ class Filter():
 				data_row[method] = measurement_detection[method]
 
 			# Updates data with new information
-			self.data = self.data.append(data_row, ignore_index = True)
+			self.data = self.data._append(data_row, ignore_index = True)
 
 		self.data['PMID'] = self.data['PMID'].astype('int32')
 
@@ -298,7 +298,7 @@ class Filter():
 			#pattern = [{'LOWER' : term, 'OP' : '?'}, {'LOWER' : term + 's', 'OP' : '?'}]
 			pattern = [{'LOWER' : term}]
 
-			matcher.add(term, None, pattern)
+			matcher.add(term, [pattern])
 
 		return matcher
 
