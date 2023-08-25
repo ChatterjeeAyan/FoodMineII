@@ -36,3 +36,8 @@ Suite of tools developed to interact with the PubChem API.
 #### data
 Folder that holds raw data from paper data collection. **Note that several files used in our analysis are too large to be uploaded to github**
 
+#### Create the environment to run Foodmine II
+Run the following command after installing Anaconda on your machine
+```
+$ conda create -n <environment-name> --file requirements.txt
+```
